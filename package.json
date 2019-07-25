@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Hu",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyhu92/egghead-react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/andyhu92/egghead-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/andyhu92/egghead-react-boilerplate#readme"
 }
