@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Hu",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/andyhu92/egghead-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/andyhu92/egghead-react-boilerplate#readme"
+  "homepage": "https://github.com/andyhu92/egghead-react-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
 }
