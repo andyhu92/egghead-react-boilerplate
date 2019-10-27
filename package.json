@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
+    "dev:hot": "webpack-dev-server --hot --open --config webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Hu",
@@ -22,7 +23,8 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
