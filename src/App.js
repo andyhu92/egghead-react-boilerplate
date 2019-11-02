@@ -1,5 +1,8 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component } from 'react';
+
+const Warning = React.lazy(() => import(/* webpackChunkName: "warning" */ './warning'))
+
 class App extends React.Component {
     state = {
         count: 0
@@ -14,6 +17,10 @@ class App extends React.Component {
                 </h2>
                 <button onClick={() => this.setState({ count: count + 1})}>+</button>
                 <button onClick={() => this.setState({ count: count - 1})}>-</button>
+                { count > 10 &&
+                    <React.Suspense fallback={null}>
+                        <Warning />
+                    </React.Suspense>}
             </div>
         )
     }
