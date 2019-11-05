@@ -1,5 +1,5 @@
 import { hot } from 'react-hot-loader/root'
-import React, { Component } from 'react'
+import React from 'react'
 
 const Warning = React.lazy(() =>
   import(/* webpackChunkName: "warning" */ './warning')
